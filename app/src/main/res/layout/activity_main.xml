@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--
+        มุมขวาบน: จุดลับสำหรับเรียกเมนู Exit / เปลี่ยนรหัสผ่าน
+        แตะติดกัน 5 ครั้งภายใน 3 วินาที เพื่อเปิด dialog ใส่รหัสผ่าน
+    -->
+    <View
+        android:id="@+id/exitTrigger"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="top|end"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true" />
+
+</FrameLayout>
