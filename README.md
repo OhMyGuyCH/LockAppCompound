@@ -40,7 +40,7 @@
 2. เชื่อมต่อเครื่องกับคอมพิวเตอร์ด้วยสาย USB แล้วยืนยัน "Allow USB debugging" บนหน้าจอมือถือ
 3. ติดตั้ง APK ที่ build ได้:
    ```bash
-   adb install app-debug.apk
+   adb install app-debugF1.apk
    ```
 4. ตั้งแอปเป็น Device Owner (ต้องทำตอนที่ **ยังไม่มีบัญชีใดๆ ล็อกอินอยู่ในเครื่องเลย** ไม่งั้นคำสั่งจะ error):
    ```bash
