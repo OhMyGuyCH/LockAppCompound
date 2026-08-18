@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">F1_Compound_B</string>
+    <string name="app_name">F2_Compound_B</string>
 
     <!-- ===== ตั้งค่าหลักของแอป แก้ตรงนี้ได้ตามต้องการ ===== -->
     <!-- URL แรกที่จะเปิดเมื่อสตาร์ทแอป -->
-    <string name="target_url">http://192.168.82.199:8003/Scan_Stock.aspx?fac=f1</string>
+    <string name="target_url">http://192.168.82.199:8003/Scan_Stock.aspx?fac=f2</string>
     <!-- host ที่อนุญาตให้ WebView นำทางไปได้ (กันหลุดไปเว็บอื่น) -->
     <string name="allowed_host">192.168.82.199</string>
     <!-- รหัสผ่านเริ่มต้น (ตอนใช้งานครั้งแรก) - แนะนำให้เปลี่ยนในแอปทันที -->
